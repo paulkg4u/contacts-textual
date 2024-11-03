@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[co]
+*.mo
+*.py[co]
+.DS_Store
+.env
+.venv
+env/
+*.egg
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance
+.mypy_cache
+.tox
+.nox
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.egg-info
+dist
+build
+*.spec
+*.manifest
+*.mo
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into the executable.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-error.log
