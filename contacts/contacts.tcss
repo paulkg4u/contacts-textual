@@ -23,3 +23,20 @@ QuestionDialog{
 Button{
     width: 100%
 }
+
+.contacts-list {
+    width: 3fr;
+    padding: 0 1;
+    border: solid green;
+}
+
+.buttons-panel{
+    align: center top;
+    padding: 0 1;
+    width: auto;
+    border: solid red;
+}
+
+.separator{
+    height: 1fr;
+}

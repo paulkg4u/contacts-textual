@@ -36,3 +36,6 @@ venv
 # Installer logs
 pip-log.txt
 pip-error.log
+
+# database
+**/contacts.db
