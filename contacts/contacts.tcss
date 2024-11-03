@@ -40,3 +40,37 @@ Button{
 .separator{
     height: 1fr;
 }
+
+InputDialog{
+    align: center middle;
+}
+
+#title {
+    column-span: 3;
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+    color: green;
+    text-style: bold;
+}
+
+
+#input-dialog{
+    grid-size: 3 5;
+    grid-gutter: 1 1;
+    padding: 0 1;
+    width: 50;
+    height: 20;
+    border: solid green;
+    background: $surface;
+}
+
+.label{
+    height: 1fr;
+    width: 1fr;
+    content-align: right middle;
+}
+
+.input {
+    column-span: 2;
+}
